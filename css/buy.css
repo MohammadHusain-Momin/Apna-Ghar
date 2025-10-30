@@ -1,0 +1,24 @@
+.buy-button {
+    background-color: #ff5733; /* Bright red-orange background */
+    border: none; /* Remove default border */
+    color: white; /* White text color */
+    padding: 15px 30px; /* Space inside the button */
+    text-align: center; /* Center the text */
+    text-decoration: none; /* Remove underline from text */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Increase font size */
+    font-weight: bold; /* Make the text bold */
+    border-radius: 12px; /* Rounded corners */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
+  }
+  
+  .buy-button:hover {
+    background-color: #c70039; /* Darker red on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .buy-button:active {
+    background-color: #900c3f; /* Even darker red when clicked */
+    transform: scale(0.95); /* Slightly shrink when clicked */
+  }
+  
